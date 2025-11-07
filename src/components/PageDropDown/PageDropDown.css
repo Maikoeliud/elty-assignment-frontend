@@ -1,0 +1,57 @@
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f3f3;
+}
+
+.dropdown-card {
+  background: #fff;
+  width: 370px;
+   height: 326px;
+  border-radius: 6px;
+  border:1px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #007bff;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 10px 0;
+}
+
+.done-btn {
+  width: 100%;
+  background: #ffd32a;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  color: #000;
+  transition: background 0.2s ease;
+}
+
+.done-btn:hover {
+  background: #ffca00;
+}
