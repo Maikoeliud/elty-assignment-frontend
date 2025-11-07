@@ -46,10 +46,11 @@ const PageDropDown = () => {
         ))}
 
         <hr />
-
-        <button className="done-btn" onClick={handleDone}>
-          Done
-        </button>
+        <div className="button">
+          <button className="done-btn" onClick={handleDone}>
+            Done
+          </button>
+        </div>
       </div>
     </div>
   );

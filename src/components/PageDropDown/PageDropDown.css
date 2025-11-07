@@ -12,7 +12,8 @@
    height: 326px;
   border-radius: 6px;
   border:1px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 8px 15px 0px rgba(20, 20, 20, 0.12);
+box-shadow: 0px 0px 4px 0px rgba(20, 20, 20, 0.1);
   padding: 16px;
   font-family: "Inter", sans-serif;
 }
@@ -20,17 +21,20 @@
 .checkbox-row {
   display: flex;
   align-items: center;
+   width: 370px;
+   height: 42px;
   justify-content: space-between;
-  margin: 10px 0;
-  color: #333;
-  font-size: 15px;
+  color: #1F2128;
+  font-size: 14px;
+  font-style: "Montserrat";
 }
 
 .checkbox-row input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
-  accent-color: #007bff;
+  width: 23px;
+  height: 23px;
+  accent-color: #2469F6;
   cursor: pointer;
+  border-radius: 6px;
 }
 
 hr {
@@ -38,18 +42,24 @@ hr {
   border-top: 1px solid #eee;
   margin: 10px 0;
 }
-
+.button{
+  width: 370px;
+  height: 60px;
+  padding: 10px 15px 10px 15px;
+}
 .done-btn {
-  width: 100%;
-  background: #ffd32a;
+  width: 340px;
+  height: 40px;
+  background: #FFCE22;
   border: none;
-  border-radius: 6px;
-  padding: 10px 0;
-  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
   cursor: pointer;
-  font-size: 15px;
-  color: #000;
+  font-size: 14px;
+  color: #1F2128;
   transition: background 0.2s ease;
+  
 }
 
 .done-btn:hover {
